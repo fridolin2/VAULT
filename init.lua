@@ -15,9 +15,9 @@ core.register_node("vault:216_block_01", {
 core.register_craft({
 		output = "vault:216_block_01 20",
 		recipe = {
-                {"default:stone", "default:stone", "default:stone"},
-                {"dye:yellow", "dye:yellow", "dye:yellow"},
-                {"default:stone", "default:stone", "default:stone"}
+      {"default:stone", "default:stone", "default:stone"},
+      {"dye:yellow", "dye:yellow", "dye:yellow"},
+      {"default:stone", "default:stone", "default:stone"}
 	}
 })
 
@@ -38,9 +38,9 @@ core.register_node("vault:fan_block_01", {
 core.register_craft({
 	output = "vault:fan_block_01 20",
 	recipe = {
-                {"default:wood", "default:stone", "default:stone"},
-                {"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"},
-                {"default:stone", "default:stone", "default:wood"}
+  {"default:wood", "default:stone", "default:stone"},
+	{"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"},
+  {"default:stone", "default:stone", "default:wood"}
 	}
 })
 
@@ -62,9 +62,9 @@ core.register_node("vault:216_block_02", {
 core.register_craft({
 	output = "vault:216_block_02 20",
 	recipe = {
-                {"wool:white", "wool:white", "wool:white"},
-                {"dye:yellow", "dye:yellow", "dye:yellow"},
-                {"wool:white", "wool:white", "wool:white"}
+  {"wool:white", "wool:white", "wool:white"},
+  {"dye:yellow", "dye:yellow", "dye:yellow"},
+  {"wool:white", "wool:white", "wool:white"}
 	}
 })
 
@@ -85,9 +85,9 @@ core.register_node("vault:fan_block_02", {
 core.register_craft({
 	output = "vault:fan_block_02 20",
 	recipe = {
-                {"default:wood", "wool:white", "wool:white"},
-                {"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"},
-                {"wool:white", "wool:white", "default:wood"}
+  {"default:wood", "wool:white", "wool:white"},
+	{"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"},
+	{"wool:white", "wool:white", "default:wood"}
 	}
 })
 
@@ -108,9 +108,9 @@ core.register_node("vault:block_01", {
 core.register_craft({
 	output = "vault:block_01 99",
 	recipe = {
-                {"default:stone", "default:stone", "default:stone"},
-                {"default:stone", "default:stone", "default:stone"},
-                {"default:stone", "default:stone", "default:stone"}
+  {"default:stone", "default:stone", "default:stone"},
+  {"default:stone", "default:stone", "default:stone"},
+  {"default:stone", "default:stone", "default:stone"}
 	}
 })
 
@@ -131,9 +131,9 @@ core.register_node("vault:block_02", {
 core.register_craft({
 		output = "vault:block_02 99",
 		recipe = {
-                {"default:stone", "default:stone", "default:stone"},
-                {"default:stone", "wool:white", "default:stone"},
-                {"default:stone", "default:stone", "default:stone"}
+    {"default:stone", "default:stone", "default:stone"},
+    {"default:stone", "wool:white", "default:stone"},
+    {"default:stone", "default:stone", "default:stone"}
 	}
 })
 
@@ -154,9 +154,9 @@ core.register_node("vault:fan_03", {
 core.register_craft({
 		output = "vault:fan_03 12",
 		recipe = {
-                {"default:steel_ingot", "default:stone", "default:steel_ingot"},
-                {"default:stone", "default:steel_ingot", "default:stone"},
-                {"default:steel_ingot", "default:stone", "default:steel_ingot"}
+    {"default:steel_ingot", "default:stone", "default:steel_ingot"},
+    {"default:stone", "default:steel_ingot", "default:stone"},
+    {"default:steel_ingot", "default:stone", "default:steel_ingot"}
 	}
 })
 
@@ -177,9 +177,9 @@ core.register_node("vault:fan_04", {
 core.register_craft({
 		output = "vault:fan_04 12",
 		recipe = {
-                {"default:steel_ingot", "wool:white", "default:steel_ingot"},
-                {"wool:white", "default:steel_ingot", "wool:white"},
-                {"default:steel_ingot", "wool:white", "default:steel_ingot"}
+    {"default:steel_ingot", "wool:white", "default:steel_ingot"},
+    {"wool:white", "default:steel_ingot", "wool:white"},
+    {"default:steel_ingot", "wool:white", "default:steel_ingot"}
 	}
 })
 
@@ -208,18 +208,18 @@ core.register_node("vault:console", {
 core.register_craft({
 		output = "vault:console 2",
 		recipe = {
-                {"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"},
-                {"wool:white", "vault:screen", "wool:white"},
-                {"vault:red_button", "default:steel_ingot", "vault:green_button"}
+  	{"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"},
+  	{"wool:white", "vault:screen", "wool:white"},
+    {"vault:red_button", "default:steel_ingot", "vault:green_button"}
 	}
 })
 
 core.register_craft({
 		output = "vault:console_01 2",
 		recipe = {
-                {"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"},
-                {"default:stone", "vault:screen", "default:stone"},
-                {"vault:red_button", "default:steel_ingot", "vault:green_button"}
+  		{"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"},
+      {"default:stone", "vault:screen", "default:stone"},
+      {"vault:red_button", "default:steel_ingot", "vault:green_button"}
 	}
 })
 
@@ -237,9 +237,9 @@ core.register_craftitem("vault:red_button", {
 core.register_craft({
 		output = "vault:red_button",
 		recipe = {
-                {"", "", ""},
-                {"", "dye:red", ""},
-                {"", "default:steel_ingot", ""}
+    {"", "", ""},
+  	{"", "dye:red", ""},
+    {"", "default:steel_ingot", ""}
 	}
 })
 
@@ -258,9 +258,9 @@ core.register_craftitem("vault:green_button", {
 core.register_craft({
 		output = "vault:green_button",
 		recipe = {
-                {"", "", ""},
-                {"", "dye:green", ""},
-                {"", "default:steel_ingot", ""}
+    {"", "", ""},
+    {"", "dye:green", ""},
+    {"", "default:steel_ingot", ""}
 	}
 })
 
@@ -278,9 +278,9 @@ core.register_craftitem("vault:screen", {
 core.register_craft({
 		output = "vault:screen",
 		recipe = {
-                {"default:steel_ingot", "default:stone", "default:steel_ingot"},
-                {"wool:white", "wool:black", "wool:white"},
-                {"default:steel_ingot", "default:stone", "default:steel_ingot"}
+    {"default:steel_ingot", "default:stone", "default:steel_ingot"},
+  	{"wool:white", "wool:black", "wool:white"},
+    {"default:steel_ingot", "default:stone", "default:steel_ingot"}
 	}
 })
 
@@ -344,9 +344,9 @@ core.register_node("vault:ammo_chest", {
 core.register_craft({
 		output = "vault:ammo_chest",
 		recipe = {
-                {"default:wood", "default:stone", "default:wood"},
-                {"default:wood", "dye:green", "default:wood"},
-                {"default:wood", "default:stone", "default:wood"}
+    {"default:wood", "default:stone", "default:wood"},
+    {"default:wood", "dye:green", "default:wood"},
+    {"default:wood", "default:stone", "default:wood"}
 	}
 })
 
@@ -366,9 +366,9 @@ core.register_tool("vault:uran_sword", {
 core.register_craft({
 		output = "vault:uran_sword",
 		recipe = {
-                {"vault:uranium_ingot", "", ""},
-                {"vault:uranium_ingot", "", ""},
-                {"default:tree", "", ""}
+    {"vault:uranium_ingot", "", ""},
+    {"vault:uranium_ingot", "", ""},
+    {"default:tree", "", ""}
 	}
 })
 
@@ -386,9 +386,9 @@ core.register_craftitem("vault:uranium_ingot", {
 core.register_craft({
 		output = "vault:uranium_ingot 2",
 		recipe = {
-                {"default:coalblock", "default:coalblock", "default:coalblock"},
-                {"default:coalblock", "vault:216_block_02", "default:coalblock"},
-                {"default:coalblock", "default:coalblock", "default:coalblock"}
+    {"default:coalblock", "default:coalblock", "default:coalblock"},
+    {"default:coalblock", "vault:216_block_02", "default:coalblock"},
+    {"default:coalblock", "default:coalblock", "default:coalblock"}
 	}
 })
 
@@ -432,35 +432,35 @@ core.register_craft({
 	core.register_craft({
 			output = "vault:compressed_coalblock",
 			recipe = {
-	                {"default:coalblock", "default:coalblock", "default:coalblock"},
-	                {"default:coalblock", "default:coalblock", "default:coalblock"},
-	                {"default:coalblock", "default:coalblock", "default:coalblock"}
+	    {"default:coalblock", "default:coalblock", "default:coalblock"},
+	    {"default:coalblock", "default:coalblock", "default:coalblock"},
+	    {"default:coalblock", "default:coalblock", "default:coalblock"}
 		}
 	})
 
 	core.register_craft({
 			output = "default:coal_lump 81",
 			recipe = {
-	                {"", "", ""},
-	                {"", "vault:compressed_coalblock", ""},
-	                {"", "", ""}
+	    {"", "", ""},
+	    {"", "vault:compressed_coalblock", ""},
+	    {"", "", ""}
 		}
 	})
 		core.register_craft({
 				output = "default:coalblock 9",
 				recipe = {
-		                {"", "", ""},
-		                {"", "vault:compressed_coalblock", ""},
-		                {"", "", ""}
+		    {"", "", ""},
+		    {"", "vault:compressed_coalblock", ""},
+		    {"", "", ""}
 			}
 		})
 
 		core.register_craft({
 				output = "default:diamond 1",
 				recipe = {
-										{"vault:compressed_coalblock", "vault:compressed_coalblock", "vault:compressed_coalblock"},
-										{"vault:compressed_coalblock", "default:steel_ingot", "vault:compressed_coalblock"},
-										{"vault:compressed_coalblock", "vault:compressed_coalblock", "vault:compressed_coalblock"}
+				{"vault:compressed_coalblock", "vault:compressed_coalblock", "vault:compressed_coalblock"},
+				{"vault:compressed_coalblock", "default:steel_ingot", "vault:compressed_coalblock"},
+				{"vault:compressed_coalblock", "vault:compressed_coalblock", "vault:compressed_coalblock"}
 			}
 		})
 
@@ -480,9 +480,9 @@ core.register_craft({
 		core.register_craft({
 				output = "vault:pickaxe_uranium 1",
 				recipe = {
-										{"vault:uranium_ingot", "vault:uranium_ingot", "vault:uranium_ingot"},
-										{"", "default:tree", ""},
-										{"", "default:tree", ""}
+				{"vault:uranium_ingot", "vault:uranium_ingot", "vault:uranium_ingot"},
+				{"", "default:tree", ""},
+				{"", "default:tree", ""}
 			}
 		})
 
@@ -503,9 +503,9 @@ core.register_craft({
 			core.register_craft({
 					output = "vault:shovel_uranium 1",
 					recipe = {
-											{"", "vault:uranium_ingot", ""},
-											{"", "default:tree", ""},
-											{"", "default:tree", ""}
+					{"", "vault:uranium_ingot", ""},
+					{"", "default:tree", ""},
+					{"", "default:tree", ""}
 				}
 			})
 
@@ -526,18 +526,18 @@ core.register_craft({
 		core.register_craft({
 				output = "vault:axe_uranium 1",
 				recipe = {
-										{"", "vault:uranium_ingot", "vault:uranium_ingot"},
-										{"", "default:tree", "vault:uranium_ingot"},
-										{"", "default:tree", ""}
+				{"", "vault:uranium_ingot", "vault:uranium_ingot"},
+				{"", "default:tree", "vault:uranium_ingot"},
+				{"", "default:tree", ""}
 			}
 		})
 
 		core.register_craft({
 				output = "vault:axe_uranium 1",
 				recipe = {
-										{"vault:uranium_ingotvault:uranium_ingot", "vault:uranium_ingot", ""},
-										{"vault:uranium_ingot", "default:tree", ""},
-										{"", "default:tree", ""}
+				{"vault:uranium_ingotvault:uranium_ingot", "vault:uranium_ingot", ""},
+				{"vault:uranium_ingot", "default:tree", ""},
+				{"", "default:tree", ""}
 			}
 		})
 
@@ -595,9 +595,9 @@ core.register_craft({
 			core.register_craft({
 						output = "vault:torch 10",
 						recipe = {
-												{"", "vault:uranium_ingot", ""},
-												{"", "default:tree", ""},
-												{"", "", ""}
+						{"", "vault:uranium_ingot", ""},
+						{"", "default:tree", ""},
+						{"", "", ""}
 					}
 		})
 
@@ -618,8 +618,8 @@ core.register_craft({
 		core.register_craft({
 					output = "vault:uranapple 3",
 					recipe = {
-											{"vault:uranium_ingot", "vault:uranium_ingot", "vault:uranium_ingot"},
-											{"vault:uranium_ingot", "default:apple", "vault:uranium_ingot"},
-											{"vault:uranium_ingot", "vault:uranium_ingot", "vault:uranium_ingot"}
+					{"vault:uranium_ingot", "vault:uranium_ingot", "vault:uranium_ingot"},
+					{"vault:uranium_ingot", "default:apple", "vault:uranium_ingot"},
+					{"vault:uranium_ingot", "vault:uranium_ingot", "vault:uranium_ingot"}
 				}
 			})
