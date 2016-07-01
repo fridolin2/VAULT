@@ -24,10 +24,8 @@ License of media (textures, sounds, meshes):
 --------------------------------------------
 (by Author/s)
 
-vault_*.png
-
 fridolin2 (CC BY-SA 3.0):
-
+vault_*.png
 
 
 Details of Licenses:
