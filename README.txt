@@ -1,11 +1,9 @@
-# VAULT
 Minetest mod: "vault"
-========================
-Version 0.1, Status: alpha
+=====================
 
 License of source code:
 -----------------------
-Copyright (C) 2016 fridolin2 <https://github.com/fridolin2>
+Copyright (C) 2016 fridolin2 <lars-ole99@gmx.de>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
@@ -24,10 +22,12 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 
 License of media (textures, sounds, meshes):
 --------------------------------------------
-(by Authors)
+(by Author/s)
+
+vault_*.png
 
 fridolin2 (CC BY-SA 3.0):
-all textures are by fridolin2
+
 
 
 Details of Licenses:
@@ -42,9 +42,9 @@ CC BY-SA 3.0:
 Description:
 ------------
 
-vault is a mod for Minetest, it make more blocks in minetest
+Vault is a mod for Minetest, it adds more blocks in minetest.
 
 
 Notes:
 ------
-should be playable with Minetest 0.4.14 or above.
+Should be playable with Minetest 0.4.14 or above.
